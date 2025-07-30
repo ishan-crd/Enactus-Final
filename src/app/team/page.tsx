@@ -11,8 +11,13 @@ const navItems = [
   { name: "Team", href: "/team" },
   { name: "Contact", href: "#contact" },
 ];
+type TeamMember = {
+  name: string;
+  role: string;
+  image?: string;
+};
 
-const team = [
+const team: TeamMember[] = [
   { name: "Naavya Arya", role: "President" },
   { name: "Disha Gurjar", role: "Vice President" },
   { name: "Yashika Sachdeva", role: "General Secretary" },
