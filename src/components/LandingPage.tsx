@@ -14,7 +14,7 @@ const projectSlides = [
   {
     title: "Green Innovation",
     description:
-      "Leading environmental initiatives that combine entrepreneurship with sustainability to protect our planet's future.",
+      "Leading environmental initiatives that combine entrepreneurship with sustainability to protect our planet&apos;s future.",
     category: "Environmental",
   },
   {
@@ -365,7 +365,7 @@ export default function Home() {
             viewport={{ once: true }}
           >
             Enactus leads meaningful projects that empower communities through
-            entrepreneurship. Explore the initiatives we're proud of:
+            entrepreneurship. Explore the initiatives we&apos;re proud of:
           </motion.p>
 
           <div className="grid md:grid-cols-2 gap-10">
